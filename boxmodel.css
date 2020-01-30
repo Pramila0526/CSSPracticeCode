@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boxmodel
+{
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    padding-left: 20px; /*It will shift username*/
+}
+
+input{
+    /*Padding-Padding clears an area around the content. It is Transparent*/
+   /*  padding-left: 20px;/*It will shift the input area (i.e. textfield) from left */
+   /* padding-top: 20px; /*Padding from top*/ 
+   padding: 5px; /* Padding from left right top bottom*/
+
+   /*Margin- Clears an area autside the border. The margin is transparent*/
+   /* margin-top: 50px;*/  
+   /* margin-left: 20px;*/
+   margin: 20px; /* Margin from left right top bottom*/
+
+}

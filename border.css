@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.borderCSS
+{
+    width: 500px;
+    height: 300px;
+    background-color: yellowgreen;
+    /* border-width: 5px;
+    border-color: purple;
+    border-style: dashed; 
+    We can give all of three once as follows*/
+    border: 5px purple dashed;
+    border-radius: 10px;  /*Curves On Corners*/
+}

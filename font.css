@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#fontCss
+{
+    font-family: 'Lobster', cursive;
+    font-variant: small-caps;
+    font-size: 4em;  /*1em=16px*/
+    font-style: italic;
+    font-weight: 200;
+ }

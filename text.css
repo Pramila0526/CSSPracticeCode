@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#textCss{
+    font-family: 'Lobster', cursive;
+    color: red;
+    letter-spacing: 5px;
+    /* direction: ltr; */
+    text-indent: 50px;
+    text-align: center;  /*Alignment of Text*/
+    text-transform: uppercase;  /*To set upeercase lowercase*/
+}

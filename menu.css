@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:black;
+}
+
+.logo{
+    width: 30%;
+    line-height: 80px; /*Vertically Center*/
+    text-align: center; /*Hirizontally Center*/
+    background-color: orange;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    line-height: 80px; /*Vertically Center*/
+    text-align: center; /*Hirizontally Center*/
+    background-color: yellowgreen;
+    float: right;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+    direction: rtl;
+}
+
+li{
+     /* display: inline; /*for displaying in one line*/
+     /* display: block; /*Separatte Blocks in vertical because it accupies the whole area*/
+     display: inline-block; /*The Best Combination for Menu Bar*/
+   border: 1px dotted red;
+   /* float: left; */
+   padding: 0 10px;
+}
